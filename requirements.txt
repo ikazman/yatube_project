@@ -1,0 +1,8 @@
+pep8
+pep8-naming
+autopep8
+flake8
+flake8-polyfill
+mypy
+pytest
+Django==2.2.19
