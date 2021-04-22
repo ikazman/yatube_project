@@ -131,3 +131,7 @@ dmypy.json
 venv/
 .vscode
 .idea
+
+static/
+
+posts/static
