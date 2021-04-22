@@ -5,6 +5,10 @@ User = get_user_model()
 
 
 class Post(models.Model):
+    """Модель сообщений: сообщение - текстовое поле, дата, автор -
+    реляционная ссылка на модель User и группа - реляционная ссылка
+    на модель Group."""
+
     text = models.TextField()
     pub_date = models.DateTimeField('date published', auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE,
